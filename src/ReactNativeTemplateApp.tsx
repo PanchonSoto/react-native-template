@@ -2,7 +2,7 @@ import './gesture-handler';
 
 import { NavigationContainer } from "@react-navigation/native";
 
-import { StackNavigator } from './navigator/StackNavigator';
+import { StackNavigator } from './presentation/navigator/StackNavigator';
 
 
 // !App name

@@ -1,8 +1,10 @@
 import { createStackNavigator } from '@react-navigation/stack';
 
-import { HomeScreen } from '../presentation/screens/home/HomeScreen';
-import { Screen1 } from '../presentation/screens/Screen1/Screen1';
-import { Screen2 } from '../presentation/screens/Screen2/Screen2';
+import { HomeScreen } from '../screens/home/HomeScreen';
+import { Screen1 } from '../screens/Screen1/Screen1';
+import { Screen2 } from '../screens/Screen2/Screen2';
+
+
 
 
 
