@@ -10,16 +10,25 @@ import { Screen2 } from '../screens/Screen2/Screen2';
 
 
 export type RootStackParams = {
-    HomeScreen: undefined;
-    Screen1: { id: number };
-    Screen2: undefined;
+  HomeScreen: undefined;
+  Screen1: { id: number };
+  Screen2: undefined;
 }
 
 const Stack = createStackNavigator<RootStackParams>();
 
 export const StackNavigator = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+     //?CONFIG
+     /* initialRouteName='HomeScreen'
+     screenOptions={{
+      headerShown: false,
+      cardStyle: {
+        backgroundColor: 'white'
+      },
+     }} */
+    >
       <Stack.Screen name="HomeScreen" component={HomeScreen} />
       <Stack.Screen name="Screen1" component={Screen1} />
       <Stack.Screen name="Screen2" component={Screen2} />
